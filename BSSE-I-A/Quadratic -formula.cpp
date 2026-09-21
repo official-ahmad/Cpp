@@ -16,7 +16,9 @@ int main()
     float s = (b * b) - (4 * a * c);
 
     float x1 = (-b + sqrt(s)) / (2 * a);
+    float x2 = (-b - sqrt(s)) / (2 * a);
 
     cout << "The result of the formula is: " << x1 << endl;
+    cout << "The result of the formula is: " << x2 << endl;
     return 0;
 }
