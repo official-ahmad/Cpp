@@ -15,7 +15,7 @@ int main()
     product = a * b * c;
     cout << "Product is: " << product << endl;
 
-    mean = sum / 2;
+    mean = sum / 3;
     cout << "Arthmetic mean is: " << mean << endl;
 
     if (a > b && a > c)
@@ -33,7 +33,7 @@ int main()
         cout << c << " is the largest" << endl;
     }
 
-    if (a < b && a < b)
+    if (a < b && a < c)
     {
         cout << a << " is the smallest" << endl;
     }
@@ -51,4 +51,4 @@ int main()
     return 0;
 }
 
-// Developed by: Muhammad Ahmad - 2601616
+// Programmed by: Muhammad Ahmad - 2601616
